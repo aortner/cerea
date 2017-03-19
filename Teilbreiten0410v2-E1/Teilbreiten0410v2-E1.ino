@@ -60,19 +60,7 @@ sensorVal = digitalRead(10);   // pin 10 Abfragen "Marca"
 // - 19.3.2017
 sensorAuto = digitalRead(11);       // pin 11 Abfragen "Auto"
 
-/* alte Version 19.3.2017
- if (sensorVal == HIGH ) {
-    Serial.print ("@SDOSE;1;0;0;0;0;0;0;0;0;0;0;END");    //wenn Kontakt frei Marc ein
-    Serial.print ('\r');
-    Serial.print ('\n');
- }
- else if (sensorVal == LOW )
- {
-    Serial.print ("@SDOSE;0;0;0;0;0;0;0;0;0;0;0;END");   //wenn Kontakt auf GND Marc aus
-    Serial.print ('\r');
-    Serial.print ('\n');
- }
-*/
+
 
 // - 19.3.2017
  if (sensorVal == HIGH ) {
