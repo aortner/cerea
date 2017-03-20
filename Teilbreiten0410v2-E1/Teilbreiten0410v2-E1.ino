@@ -7,6 +7,8 @@
 // erweiter um Tasteneingabe für Lenkungsaktivierung ("Auto")
 // (C) 2017 by Klaus Sieverding - Klaus.Sieverding@web.de
 
+
+
 String cmd;
 char nextChar;
 String teilbreite;
@@ -16,6 +18,20 @@ int sensorVal;
 int lsensorVal;
 // - 19.3.2017
 int sensorAuto;
+
+//Mögliche Befehle:
+// on marc
+// on contur
+// on new
+// on a
+// on b
+// on auto
+// on left
+// on right
+// on turn left
+// on turn right
+//
+
 int aDos[11]={0,0,0,0,0,0,0,0,0,0,0}; // Array für Befehlübergabe
 
 void setup() {
