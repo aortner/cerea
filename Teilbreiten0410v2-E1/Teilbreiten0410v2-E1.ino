@@ -1,6 +1,6 @@
 // Arduino Cerea Teilbreitenschaltung
 // (C) 2016 by Andreas Ortner - office@gh-ortner.com
-// Weitergabe an Dritte nur unter Erlaubniss von Andreas Ortner
+// 
 // Version 2 mit Spritze overdrive
 //
 // 19.3.2017
